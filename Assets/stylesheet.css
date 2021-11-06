@@ -17,13 +17,13 @@ aside{
     width: 20%;
     float: left;
     color:#445877;
-    font-size: 25px;
+    font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 10px;
 }
 
 .Description{
-    border-right: red;
+    border-right: #445877;
     min-height: 150px;
     margin-bottom: 50px;
 }
@@ -34,12 +34,12 @@ aside{
 }
 
 .Work{
-    border-right: white;
+    border-right: #445877;
     min-height: 900px;
     margin-bottom: 50px;
 }
 .Contact-me{
-    border-right: red;
+    border-right: #445877;
     min-height: 75px;
     margin-bottom: 30px;
     padding-top: 30px;
@@ -48,10 +48,11 @@ aside{
 
 header h1{
     display: inline;
-    font-size: 50px;
+    font-size: 40px;
     color: #31343d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #92ccce;
+
     
 }
 
@@ -74,7 +75,7 @@ nav a{
     font-size: 30px;
     color: #31343d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: 100px;
+    padding: auto;
     float: right;
     background-color: #92ccce;
 }
@@ -93,30 +94,180 @@ main{
 }
 
 .Refactoring{
-    min-height: 300px;
-    width: 100%;
-    margin-bottom: 0px;
+    min-height: 200px;
+    display: inline-flexbox;
+    /* width: 100%;
+    margin-bottom: 0px; */
     background-size: cover;
-    background-position: center;
+    background-position: var(inline-flexbox);
     background-image: url(../Images/purple.jpeg);
 }
 
 .Code-Refactor h2{
-    display: block;
-    padding-top: 280px;
-    font-size: 30px;
-    color: white;
+    display: inline-flexbox;
+    padding: auto;
+    font-size: 20px;
+    color: #31343d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    max-width: 300px;
-    background-color: violet; 
+    max-width: 175px;
+    background-color: #92ccce; 
 }
 .Code-Refactor h3{
-    display: inline;
-    font-size: 30px;
-    color: white;
+    display: inline-flexbox;
+    font-size: 20px;
+    color: #31343d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    ;max-width: 300px;
-    background-color: violet
+   background-color: #92ccce; 
+   ;max-width: 250px;
+    
+}
+.Yellow{
+    min-height: 200px;
+    display: inline-flexbox;
+    background-size: cover;
+    background-position: center;
+    background-position: var(inline-flexbox);
+    background-image: url(../Images/yellow.jpeg);
+
+}
+.Yellow-Paper h2{
+    display: inline-flexbox;
+    font-size: 20px;
+   padding: auto;
+    color: #31343d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 175px;
+    background-color: #92ccce;
+}
+.Yellow-Paper h3{
+    display: inline-flexbox;
+    font-size: 20px;
+    color: #31343d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #92ccce;
+    max-width: 250px;
+}
+.Blue{
+    min-height: 200px;
+    display: inline-flexbox;
+    background-size: cover;
+    background-position: center;
+    background-position: var(inline-flexbox);
+    background-image: url(../Images/blue.jpeg);
+
+}
+.Blue-Paper h2{
+    display: inline-flexbox;
+    font-size: 20px;
+    padding: auto;
+    color: #31343d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 175px;
+    background-color: #92ccce;
+}
+.Blue-Paper h3{
+    display: inline-flexbox;
+    font-size: 15px;
+    color: #31343d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     max-width: 175px;
+     background-color: #92ccce;
+   
+}
+.Wave{
+    min-height: 200px;
+    display: inline-flexbox;
+    background-size: cover;
+    background-position: center;
+    background-position: var(inline-flexbox);
+    background-image: url(../Images/wave.jpeg);
+
+}
+.Wave-Paper h2{
+    display: inline-flexbox;
+    font-size: 20px;
+    padding: auto;
+    color: #31343d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 175px;
+    background-color: #92ccce;
+}
+.Wave-Paper h3{
+    display: inline-flexbox;
+    font-size: 15px;
+    color: #31343d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #92ccce;
+    max-width: 175px;
+}
+.Green{
+    min-height: 200px;
+    display: inline-flexbox;
+    background-size: cover;
+    background-position: center;
+    background-position: var(inline-flexbox);
+    background-image: url(../Images/green.jpeg);
+
+}
+.Green-Paper h2{
+    display: inline-flexbox;
+    font-size: 20px;
+    padding: auto;
+    color: #31343d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 175px;
+    background-color: #92ccce;
+}
+.Green-Paper h3{
+    display: inline-flexbox;
+    font-size: 15px;
+    color: #31343d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #92ccce;
+    max-width: 175px;
+}  
+.Contact-me{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.Contact-me ul{
+    list-style: none;
+    float: center;
+}
+.Contact-me ul li{
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    color: #31343d;
+    font-size: 20px;
+    text-decoration: underline 5px;
+    text-decoration-color: #92ccce;
+}
+.Contact-me a:link, a:hover, a:active{
+    color: #31343d;
+    background-color: transparent;
+    text-decoration: underline 5px;
+    text-decoration-color:  #92ccce;
 }
 
-   
+@media screen and (max-width: 992px) {
+    .content{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content{
+        width: 100%;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .content{
+        width: 100%;
+    }
+}
+  
+
+  
