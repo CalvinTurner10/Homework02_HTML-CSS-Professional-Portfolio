@@ -32,3 +32,34 @@ aside{
     min-height: 200px;
     margin-bottom: 50px;
 }
+
+.Work{
+    border-right: purple;
+    min-height: 900px;
+    margin-bottom: 50px;
+}
+.Contact-me{
+    border-right: red;
+    min-height: 75px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+header h1{
+    display: inline;
+    font-size: 40px;
+    color: saddlebrown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    float: right;
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
