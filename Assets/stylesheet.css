@@ -34,7 +34,7 @@ aside{
 }
 
 .Work{
-    border-right: purple;
+    border-right: white;
     min-height: 900px;
     margin-bottom: 50px;
 }
@@ -91,3 +91,32 @@ main{
     width: 75%;
     float: right;
 }
+
+.Refactoring{
+    min-height: 300px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../Images/purple.jpeg);
+}
+
+.Code-Refactor h2{
+    display: block;
+    padding-top: 280px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 300px;
+    background-color: violet; 
+}
+.Code-Refactor h3{
+    display: inline;
+    font-size: 30px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    ;max-width: 300px;
+    background-color: violet
+}
+
+   
