@@ -21,3 +21,14 @@ aside{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 10px;
 }
+
+.Description{
+    border-right: chocolate;
+    min-height: 150px;
+    margin-bottom: 50px;
+}
+
+.About-me{
+    min-height: 200px;
+    margin-bottom: 50px;
+}
