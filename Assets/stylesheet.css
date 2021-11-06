@@ -6,24 +6,24 @@
 
 body{
         min-height: 100px;
-        background-color:#31343d;
+        background-color:#eeeef7;
     }
 
 header {
-   background-color:#92ccce ;
+   background-color: #31343d;
    min-height: 100px;
 }
 aside{
     width: 20%;
     float: left;
-    color: green;
+    color:#445877;
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 10px;
 }
 
 .Description{
-    border-right: chocolate;
+    border-right: red;
     min-height: 150px;
     margin-bottom: 50px;
 }
@@ -48,9 +48,11 @@ aside{
 
 header h1{
     display: inline;
-    font-size: 40px;
-    color: saddlebrown;
+    font-size: 50px;
+    color: #31343d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #92ccce;
+    
 }
 
 nav ul{
@@ -62,4 +64,30 @@ nav ul li{
     margin-left: 30px;
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav a{
+    color: #91cacc;
+}
+
+.background h2{
+    display: block;
+    font-size: 30px;
+    color: #31343d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 100px;
+    float: right;
+    background-color: #92ccce;
+}
+.Digital{
+    min-height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    background-image:url("../Images/banner.jpeg");
+
+}
+main{
+    width: 75%;
+    float: right;
 }
